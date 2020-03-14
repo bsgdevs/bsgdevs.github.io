@@ -7,7 +7,7 @@ layout: default
 
 # Em breve... BSGD
 
-## Baixada Santsita Game Dev
+## Baixada Santista GameDev
 
 Sejam bem vindos! A página ainda está em construção.
 
