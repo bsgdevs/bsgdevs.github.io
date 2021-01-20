@@ -18,9 +18,9 @@ email: bsgd-sp@googlegroups.com
 #phone: 0123456789
 description: Grupo de Desenvolvedores de Jogos Independentes da Baixada Santista
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://bsgd-sp.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://bsgdevs.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: alternatyves
-github_username: bsgd-sp
+github_username: bsgdevs
 
 # Build settings
 markdown: kramdown
