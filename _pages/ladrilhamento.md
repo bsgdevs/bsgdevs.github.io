@@ -1,24 +1,42 @@
 # Ladrilhos e auto-ladrilhamento em jogos
 ## O que são ladrilhos em desenvolvimento de jogos
-O uso de ladrilhos em jogos se refere à uma técnica de desenvolvimento do qual um cenário é montado a partir da composição de pequenos pedaços de uma imagem sobre uma grade que contém a mesma forma do pedaço a fim de encaixar e assim compor uma imagem final.
+O uso de ladrilhos em jogos se refere à uma técnica do qual um cenário é montado a partir da composição de pequenos pedaços de uma imagem encaixados sobre uma grade matemática.
 
 > FAZER: INSERIR IMAGEM ILUSTRATIVA, COM O CONJUNTO DESTACADO E UM MAPA MONTADO A FIM DE DEMONSTRAR O CENÁRIO COMPOSTO PELOS LADRILHOS DE SEU CONJUNTO.
 
-Esses pequenos pedaços são chamados **Ladrilhos** (também conhecidos como *Tiles*); a imagem cujo contém esses ladrilhos é chamada de **Conjunto de Ladrilhos** (também conhecido como *Tile Set*); e a composição desses ladrilhos que criam o cenário final é um **Mapa de Ladrilhos** (ou *Tile Map*).
+Esses pequenos pedaços são chamados **Ladrilhos** (também conhecidos como *Tiles*), a imagem original usada como fonte pelos ladrilhos é chamada de **Conjunto de Ladrilhos** (ou *Tile Set*) e a composição desses ladrilhos que criam o cenário final é um **Mapa de Ladrilhos** (ou *Tile Map*).
 
-Normalmente os ladrilhos são quadrados e logo são montadas numa grade de quadrados, entretanto formas retangulares, losangulares ou hexagonais também existem e assim também suas respectivas grades.
+É bastante comum que a forma desses ladrilhos sejam quadrados e logo montadas numa grade de células quadradas, entretanto formas retangulares, losangulares ou hexagonais também existem e assim também suas respectivas grades.
+
+> FAZER: INSERIR IMAGEM DE JOGO BASEADO EM UM MAPA DE LADRILHOS HEXAGONAIS, TAMBÉM INSERIR PARA LADRILHOS LOSANGULARES.
+
+Normalmente a imagem final composta desses ladrilhos não deixa óbvio que o mesmo foi composto por esses pequenos pedaços, dando assim a ilusão de que o cenário foi montado de forma individual.
 
 Por fim, tais grades são montadas matematicamente e normalmente são apenas visíveis no editor de mapas do motor de jogos utilizado pelo desenvolvedor.
 
 > FAZER: CONSIDERAR A INSERÇÃO DE UMA CAPTURA DE TELA (OU GIF) DO EDITOR DE MAPA DA GODOT, PARA DEMONSTRAR A GRADE SENDO EXIBIDA PARA FINS DE EDIÇÃO.
 
+## Uso de ladrilhos
+> FAZER: DEFINIR O POR QUÊ LADRILHOS SÃO USADOS (OTIMIZAÇÃO DE MEMÓRIA E EFICIÊNCIA DE PRODUÇÃO
+
+## Implementação de ladrilhamento
+> FAZER: CRIAR IMPLEMENTAÇÃO BÁSICA EM CÓDIGO DE UM MAPA DE LADRILHOS, O CÓDIGO DEVERÁ SER O MAIS BÁSICO POSSÍVEL PARA FINS DE DIDÁTICA
+
+## Auto-ladrilhamento
+> FAZER EXPLICAR O QUE É AUTO-LADRILHAMENTO E COMO FUNCIONA (PADRÕES, MAPA DE BOOLIANOS, CONVERSÃO PARA UM MAPA
+
+
+
+## Fontes
+[Jogo eletrônico baseado em ladrilho](https://en.wikipedia.org/wiki/Tile-based_video_game)
+[How to Use Tile Bitmasking to Auto-Tile Your Level Layouts](https://gamedevelopment.tutsplus.com/tutorials/how-to-use-tile-bitmasking-to-auto-tile-your-level-layouts--cms-25673)
+[An Introduction to Creating a Tile Map Engine](https://gamedevelopment.tutsplus.com/tutorials/an-introduction-to-creating-a-tile-map-engine--gamedev-10900)
+
+
+
+
 ---------------------
-> (a partir daqui é parte do rascunho e planejamento do artigo, além da versão antiga do mesmo)
-
-## Autoladrilhamento
-> Explicar como criar um mapa de boleanos se tornar um mapa devidamente ladrilhado
-
--------------------------------
+---------------------
 > Versão antiga, feito em cima do React, convertido daqui: https://github.com/Andre-LA/my-autotiler-toy/blob/2e1f3e2bd4fe840043831b76cd774d73c2e7db1c/src/App.js#L196-L320
 
 # Auto-ladrilhamento
@@ -104,7 +122,3 @@ Observação do Autor: Na verdade o autotiler não está retornando um arranjo d
 criando os tiles diretamente porque o autotiler está aplicado nas tiles e não como uma função
 separada, eu preciso corrigir isto, pois acredito que modularizar esse processo numa função
 tornará a implementação mais adequada.
-
-
-## Fontes
-[Jogo eletrônico baseado em ladrilho](https://en.wikipedia.org/wiki/Tile-based_video_game)
