@@ -1,0 +1,9 @@
+main:
+  - title: "Blog"
+    url: /blog/
+  - title: "Jogos"
+    url: /jogos/
+  - title: "Contato"
+    url: /contato/
+  - title: "Sobre"
+    url: /sobre/
